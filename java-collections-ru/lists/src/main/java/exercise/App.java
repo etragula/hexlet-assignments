@@ -2,11 +2,16 @@ package exercise;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 // BEGIN
 public class App {
     public static boolean scrabble(String s1, String s2) {
+        HashMap<Object, Object> objectObjectHashMap = new HashMap<>();
+        new HashMap<>(objectObjectHashMap);
+
+
         int[] letters = new int[128];
 
         char[] s2CharArray = s2.toLowerCase().toCharArray();
